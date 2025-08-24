@@ -1,0 +1,38 @@
+name: zeroToHero
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - defaults
+dependencies:
+  - bzip2=1.0.8
+  - ca-certificates=2025.8.3
+  - conda-pack=0.8.1
+  - expat=2.7.1
+  - libcxx=17.0.6
+  - libffi=3.4.4
+  - ncurses=6.4
+  - openssl=3.5.2
+  - pip=25.1
+  - python=3.11.13
+  - readline=8.2
+  - setuptools=78.1.1
+  - sqlite=3.45.3
+  - tk=8.6.14
+  - tzdata=2025b
+  - wheel=0.45.1
+  - xz=5.6.4
+  - zlib=1.2.13
+  - pip:
+      - filelock==3.18.0
+      - fsspec==2025.5.1
+      - jinja2==3.1.6
+      - markupsafe==3.0.2
+      - mpmath==1.3.0
+      - networkx==3.5
+      - numpy==2.3.0
+      - sympy==1.14.0
+      - torch==2.7.1
+      - typing-extensions==4.14.0
+prefix: /Users/rillusory/miniconda3/envs/zeroToHero
